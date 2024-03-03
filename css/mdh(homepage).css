@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+ list-style: none;
+}
+.built{
+    text-decoration: underline;
+}
+.box{
+    border-width: 5px;
+    border: 2px solid gray;
+    justify-items: center;
+    width: 318px;
+    height: 388px;
+
+}
+.input-icons i {
+    position: absolute;
+}
+ 
+.input-icons {
+    width: 100%;
+ 
+}
+.fa-classic, .fa-regular, .fa-solid, .far, .fas {
+    font-family: "Font Awesome 6 Free";
+    margin-top: 5px;
+    margin-left: 8px;
+}
+ 
+.icon {
+    padding: 10px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
+}
+.btn1{
+   
+    background-color:brown;
+    color: white;
+    margin-top: 12px;
+margin-right: 135px;
+padding: 5px 5px;
+
+}
+/* .nav-item {
+    margin-left: 67px;
+} */
+
+.headeritem {
+    font-size: 23px;
+    color: #976A2B;
+    font-weight: 300;
+    margin-left: 60px;
+}
+
+.btn{
+    background-color:brown;
+    color: white;
+    margin-right: 126px;
+}
+.pic{
+    padding: 18px 0px;
+}.form{
+    border: 2px solid gray;
+    height: 201px;
+    width: 211px;
+    text-align: center;
+    padding: 17px 10px;
+   
+
+}
+.wish{
+    width:100%;
+}
+.fa-solid{
+    margin-top: 8px;
+}
+.true
+{
+    margin-top: 6px;
+}
+.app{
+    font-size: 40px;
+}
+
+@media(max-width : 576px){
+    .logo {
+            width: 100px;
+         margin-right: 90px;
+        }
+        .toggleee{
+            margin-left: 40px;
+        }
+        .nav-item {
+            margin-left: 67px;
+        }
+        
+        .headeritem {
+            font-size: 23px;
+            color: #976A2B;
+            font-weight: 500;
+         
+        }
+        
+    }
+
